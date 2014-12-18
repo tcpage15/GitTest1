@@ -10,8 +10,13 @@ namespace GitTest1
     {
         static void Main(string[] args)
         {
-            // cut 1
-            Console.WriteLine("Cut1");
+            // cut 2
+            Display();
+        }
+
+        static void Display()
+        {
+            Console.WriteLine("Cut2");
             Console.ReadLine();
         }
     }
